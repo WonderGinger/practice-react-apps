@@ -1,0 +1,24 @@
+.App {
+  display: flex;
+}
+
+.column {
+  flex-grow: 1;
+  text-align: center;
+  margin: 15px;
+  background: slategray;
+  color: white;
+  border: 1px solid #ccc;
+}
+
+.card {
+  display: flex;
+  padding: 25px;
+  background: lightslategray;
+  color: black;
+}
+
+.card span {
+  flex-grow: 1;
+  text-align: center;
+}
