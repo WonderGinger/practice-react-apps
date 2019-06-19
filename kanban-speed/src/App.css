@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+  display: flex;
+}
+
+.column {
+  flex-grow: 1;
+  margin: 15px;
+}
+
+.card {
+  display: flex;
+  text-align: center;
+
+}
+
+.card span {
+  flex-grow: 1;
+}
