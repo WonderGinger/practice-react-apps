@@ -4,6 +4,13 @@ import { ListItem, ListItemIcon, Checkbox, Button } from '@material-ui/core'
 const TodoListItem = ({ todoListItem, todoListItemIndex, onRemove }) => {
   const [checked, setChecked] = React.useState([-1]);
 
+  const renderText = () => {
+    let style = {};
+    if  (checked.indexOf(todoListItemIndex) !== -1) style = { textDecoration: 'line-through' }
+    return (
+      <p style={style}>{todoListItem.text}</p>
+    )
+  }
   const handleToggle = value => () => {
     const currentIndex = checked.indexOf(value);
     const newChecked = [...checked];
@@ -14,8 +21,6 @@ const TodoListItem = ({ todoListItem, todoListItemIndex, onRemove }) => {
       newChecked.splice(currentIndex, 1);
     }
     setChecked(newChecked);
-    console.log(newChecked)
-
   };
 
   return (
@@ -28,7 +33,7 @@ const TodoListItem = ({ todoListItem, todoListItemIndex, onRemove }) => {
           checked={checked.indexOf(todoListItemIndex) !== -1}
         />
       </ListItemIcon>
-      <p>{todoListItem.text}</p>
+      {renderText()}
     </ListItem>
     <Button onClick={onRemove}>-</Button>
     </div>
@@ -39,7 +44,6 @@ const styles = {
   container: {
     fontSize: 16,
     display: 'flex',
-    wordWrap: 'break-word',
   }
 }
 
