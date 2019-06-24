@@ -16,4 +16,5 @@
 
 .card span {
   flex-grow: 1;
+  word-wrap: break-word;
 }

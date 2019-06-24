@@ -1,0 +1,20 @@
+{
+  "socialCards": [
+    {
+      "name": "Wonder",
+      "handle": "WonderGinger_",
+      "profileImg": "https://pbs.twimg.com/profile_images/941461089711038464/O4ZrOmtO_400x400.jpg",
+      "body": "This react app is as easy as",
+      "image": "https://img1.southernliving.timeinc.net/sites/default/files/styles/medium_2x/public/image/2017/10/main/arkansas_black_apple_pie_with_caramel_sauce_2540501_pieso_675.jpg?itok=iUlqw3oU",
+      "date": "Jul 24"
+    },
+    {
+      "name": "Wonder2",
+      "handle": "WonderGinger_",
+      "profileImg": "https://pbs.twimg.com/profile_images/941461089711038464/O4ZrOmtO_400x400.jpg",
+      "body": "This react app is as easy as",
+      "image": "https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.tasteofhome.com%2Fwp-content%2Fuploads%2F2018%2F01%2FSweet-Potato-Pie_EXPS_GHBZ18_1203_B08_15_3b.jpg&f=1",
+      "date": "Aug 04"
+    }
+  ]
+}
